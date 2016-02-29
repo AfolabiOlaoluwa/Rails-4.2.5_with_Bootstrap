@@ -36,8 +36,11 @@ Note: To fix this you might wanna create your own Rails app, and copy the resour
 
 == Application Frontend Images
 
-https://github.com/AfolabiOlaoluwa/Rails-4.2.5_with_Bootstrap/Application_Screenshots/screencapture-localhost-3000-1456769695668.png
+For HomePage, go to file directory 
+/Application_Screenshots/screencapture-localhost-3000-1456769695668.png
  
-https://github.com/AfolabiOlaoluwa/Rails-4.2.5_with_Bootstrap/Application_Screenshots/screencapture-localhost-3000-about-1456769846644.png
+For AboutUs Page, go to file directory 
+/Application_Screenshots/screencapture-localhost-3000-about-1456769846644.png
  
-https://github.com/AfolabiOlaoluwa/Rails-4.2.5_with_Bootstrap/Application_Screenshots/screencapture-localhost-3000-contact-1456769929870.png
+For ContactUs Page, go to file directory 
+/Application_Screenshots/screencapture-localhost-3000-contact-1456769929870.png
