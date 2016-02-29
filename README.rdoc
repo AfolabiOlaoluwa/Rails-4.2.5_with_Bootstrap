@@ -1,28 +1,43 @@
 == README
+This app is <tt>just an implementation of Twitter Bootstrap with Rails 4.2.5</tt>. My interest for this is not to actually create a site. This "Rails Template" (Rails 4.2.5 with Bootstrap 3) will keep you up and running with your Rails-Boostrap Development without going through other setting apart from just running <tt>bundle install</tt> to install dependencies.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+== Steps necessary to get the application up and running.
 
-Things you may want to cover:
+* Download the source code, then in the command prompt/IDE, change directory to this downloaded Template.
 
-* Ruby version
+* Run <tt>bundle install</tt> just to install all the dependencies needed for the app to run.
 
-* System dependencies
+* Run <tt>rails s</tt> to start the server.
 
-* Configuration
+==Note
+You can add other CSS & JavaScript files into your assets pipeline. To make that work in this app, use Rails Helper <tt>stylesheet_link_tag</tt> to call your files included in Assets. If you do so, dont forget to add the file in your asset.rb also
 
-* Database creation
+For example:
+If you added "style.css" & "page.css" into your css assets pipeline, from your <tt>application.html.erb</tt> add the CSS in comma separated list like this:
+<%= stylesheet_link_tag    'application','style', page, media: 'all', 'data-turbolinks-track' => true %> asset.rb
+Then go to config/initializers/assets.rb, uncomment and add the file like this with no comma:
+Rails.application.config.assets.precompile += %w( pages.css style.css )
 
-* Database initialization
+Always stop and restart your Rails Server once you add any file in such manner. 
 
-* How to run the test suite
+== Using DB with the Application
 
-* Services (job queues, cache servers, search engines, etc.)
+* Use your Rails knowledge to create your tables/define your DB. You can consult this URL for RoR Guides  http://guides.rubyonrails.org/
 
-* Deployment instructions
+* Then run <tt>rake db:migrate</tt> to run your migrations.
 
-* ...
+* Run <tt>rails s</tt> to start the server.
 
+* To see the Frontend (i.e. the part the public will see) of the Application, type <tt>localhost:3000</tt> into your broswer and press Enter Key.
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+== Errors you are likely to see
+1. This error could be as a result of changing/hashing out my secret keys in https://github.com/AfolabiOlaoluwa/Rails_4.2.5_Implementation_with_Bootstrap_3/blob/master/config/secrets.yml
+Note: To fix this you might wanna create your own Rails app, and copy the resource code to all neccesary folders, but leave out your own <tt>secrets.yml</tt> file. Then, go through the steps above.
+
+== Application Frontend Images
+
+https://github.com/AfolabiOlaoluwa/Rails_4.2.5_Implementation_with_Bootstrap_3/Application_Screenshots/screencapture-localhost-3000-1456769695668.png
+ 
+https://github.com/AfolabiOlaoluwa/Rails_4.2.5_Implementation_with_Bootstrap_3/Application_Screenshots/screencapture-localhost-3000-about-1456769846644.png
+ 
+https://github.com/AfolabiOlaoluwa/Rails_4.2.5_Implementation_with_Bootstrap_3/Application_Screenshots/screencapture-localhost-3000-contact-1456769929870.png
