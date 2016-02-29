@@ -37,7 +37,9 @@ Note: To fix this you might wanna create your own Rails app, and copy the resour
 == Application Frontend Images
 
 For HomePage, go to file directory 
+
 <tt>/Application_Screenshots/screencapture-localhost-3000-1456769695668.png</tt>
+https://github.com/AfolabiOlaoluwa/Rails-4.2.5_with_Bootstrap/blob/master/Application_Screenshots/screencapture-localhost-3000-1456769695668.png
  
 For AboutUs Page, go to file directory 
 <tt>/Application_Screenshots/screencapture-localhost-3000-about-1456769846644.png</tt>
