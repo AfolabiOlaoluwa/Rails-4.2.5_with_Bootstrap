@@ -31,16 +31,16 @@ Always stop and restart your Rails Server once you add any file in such manner.
 * To see the Frontend (i.e. the part the public will see) of the Application, type <tt>localhost:3000</tt> into your broswer and press Enter Key.
 
 == Errors you are likely to see
-1. This error could be as a result of changing/hashing out my secret keys in https://github.com/AfolabiOlaoluwa/Rails_4.2.5_Implementation_with_Bootstrap_3/blob/master/config/secrets.yml
+1. This error could be as a result of changing/hashing out my secret keys in https://github.com/AfolabiOlaoluwa/Rails-4.2.5_with_Bootstrap/blob/master/config/secrets.yml
 Note: To fix this you might wanna create your own Rails app, and copy the resource code to all neccesary folders, but leave out your own <tt>secrets.yml</tt> file. Then, go through the steps above.
 
 == Application Frontend Images
 
 For HomePage, go to file directory 
-/Application_Screenshots/screencapture-localhost-3000-1456769695668.png
+<tt>/Application_Screenshots/screencapture-localhost-3000-1456769695668.png</tt>
  
 For AboutUs Page, go to file directory 
-/Application_Screenshots/screencapture-localhost-3000-about-1456769846644.png
+<tt>/Application_Screenshots/screencapture-localhost-3000-about-1456769846644.png</tt>
  
 For ContactUs Page, go to file directory 
-/Application_Screenshots/screencapture-localhost-3000-contact-1456769929870.png
+<tt>/Application_Screenshots/screencapture-localhost-3000-contact-1456769929870.png</tt>
